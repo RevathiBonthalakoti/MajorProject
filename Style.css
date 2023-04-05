@@ -1,0 +1,176 @@
+body{
+   background-image:url("image1.jpg");
+    font-family:'Roboto';
+    background-size:100%;
+    padding:50px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+    
+  .displayCondition {
+    font-weight: bold;
+    display: none;
+    width:11%;
+    height: 27vw;
+     margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 30px; 
+    border-color:rgb(246, 170, 232);
+    border-style:ridge;
+    background-image:linear-gradient(120deg,lightblue,white);
+    font-family:Arial, Helvetica, sans-serif;
+    overflow: hidden;
+  }
+  #a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:25px;
+  }
+  .c{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 30px;
+  }
+
+  .Weather_Container{
+    margin: 1em 0em;
+    width: 100%;
+    height: 90vh;
+    padding: 0.5em 1em;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+.CurrentWeather_Container{
+  width:50%;
+  height:110%;
+  display:flex;
+  align-items: center;
+  border-radius:7px;
+}
+.CurrentWeather_Container .CurrentWeather{
+  border-radius: 5px;
+  width: 100%;
+  height:45%;
+  align-items: center;
+  gap: 1em;
+  text-align: center;
+}
+
+.CurrentWeather_Container .CurrentWeather .DateTime_Container{
+  border-bottom:2px solid rgba(67, 242, 242, 0.832);
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.Weather_Details{
+  width: 95%;
+  height:79%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1em;
+  padding: 0.5em;
+}
+#Place_Name{
+  width:70%;
+  padding: 0.5em;
+  border-radius: 5px;
+  background-image: linear-gradient(violet,white);
+  border-radius: 30px;
+}
+.Weather_Item{
+  background-color:whitesmoke;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0.2em;
+}
+.Weather_Item p{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#WeatherConditionBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h5{
+  font-size: 12px;
+  border-bottom: 1px solid rgb(88, 79, 211);
+  padding: 0.5em;
+  width: 100%;
+  height:60%;
+  text-align: center;
+}
+h5 i{
+  font-size: 15px;
+  margin-left: 5px;
+}
+.WeatherForecast_Container{
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  background-image: linear-gradient(90deg,rgb(245, 154, 154),white);
+  width: 100%;
+  height:48%;
+  text-align: center;
+  text-decoration: solid;
+}
+
+.Weatherforecast_Container{
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  background-image: linear-gradient(120deg,rgb(252, 199, 100),white);
+  width: 100%;
+  height:100%;
+  text-align: center;
+  text-decoration: solid;
+}
+.weatherforecast_Container{
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  background-image: linear-gradient(120deg,rgb(245, 245, 108),white);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  text-decoration: solid;
+}
+.weatherforecast{
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  background-image: linear-gradient(120deg,lightgreen,white);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  text-decoration: solid;
+}
+
+.weatherforecasta{
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  background-image: linear-gradient(120deg,lightblue,white);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  text-decoration: solid;
+}
+.weatherforecastb{
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  background-image: linear-gradient(120deg,rgb(203, 149, 241),white);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  text-decoration: solid;
+}
+
+
+  #headerTitle {
+    background-image: linear-gradient(120deg,lightblue,white,lightblue);
+    font-family: 'Droid Serif', serif;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    border-radius: 35px;
+  }
+  
