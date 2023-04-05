@@ -1,5 +1,6 @@
 # MajorProject
 Weather Forecast for 7 days
+
                                                      Output
 ![Output1](https://user-images.githubusercontent.com/129781852/230087351-5a9ae298-70a4-44a7-8506-57c8215485b2.png)
 ![Output2](https://user-images.githubusercontent.com/129781852/230087393-cf58b1b8-461d-4b52-b256-1544b8ed6b7c.png)
